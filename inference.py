@@ -18,8 +18,8 @@ def getLevel(index):
 
 
 if __name__ == '__main__':
-    net_path = "riskNet 2020-08-29 17-35-11.pkl"
-    img_path = "./rs/train/risk0/001.jpg"
+    net_path = "./result/riskNet 2020-08-30 12-10-09.pkl"
+    img_path = "./rs/test/risk1/HECHI.JPG"
 
     # 加载网络与参数
     riskNet = torch.load(net_path)
